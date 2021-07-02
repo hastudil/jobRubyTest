@@ -40,6 +40,8 @@
           <% end %>
         </tbody>
       </table>
+
+      <%= will_paginate @categories, renderer: WillPaginate::ActionView::BootstrapLinkRenderer, list_classes: %w(pagination justify-content-end pagination-sm) %>
     </div>
   </div>
 </div>

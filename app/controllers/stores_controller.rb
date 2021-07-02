@@ -5,7 +5,7 @@ class StoresController < ApplicationController
 
     #GET /stores
     def index
-        @stores = Store.order(:name)
+        @stores = Store.order(:name).paginate(page: params[:page], per_page: 5)
     end
 
     #GET /stores/:id

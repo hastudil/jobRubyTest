@@ -67,3 +67,9 @@ gem 'bootstrap-modal-rails'
 gem 'sprockets-rails', '~> 3.2', '>= 3.2.2'
 
 gem 'jquery-rails'
+
+gem 'will_paginate', '~> 3.3'
+
+gem 'will_paginate-bootstrap4', '~> 0.2.2'
+
+#gem 'will_paginate-bootstrap', '~> 1.0', '>= 1.0.2'
