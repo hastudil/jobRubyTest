@@ -23,6 +23,14 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
+// var myModal = document.getElementById('myModal')
+// console.log(myModal);
+// var myInput = document.getElementById('myInput')
+
+// myModal.addEventListener('shown.bs.modal', function () {
+//   myInput.focus()
+// })
+
 // console.log("Hola!!!");
 
 // $( "#product_category_name" ).autocomplete({
